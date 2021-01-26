@@ -1,0 +1,72 @@
+@media all and (max-width: 2000px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+        margin: 0px 170px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 1606px;
+    }
+
+    @keyframes rotatesnow {
+        0% {
+            transform: rotateZ(0deg);
+        }
+
+        50% {
+            transform: rotateZ(360deg);
+        }
+
+        100% {
+            transform: rotateZ(0deg);
+        }
+    }
+
+    .navbar-text {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+    }
+
+    .navbar-text>span {
+        cursor: pointer;
+    }
+
+    .fa-snowflake {
+        position: relative;
+        left: 30px;
+        font-size: 30px;
+        animation: rotatesnow 5s linear infinite;
+        color: red;
+    }
+
+    .navbar-title:hover {
+        cursor: pointer;
+    }
+
+    .fa-bars {
+        margin-right: 10px;
+    }
+
+
+    .input>input {
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+    }
+
+    .navbar-text>span {
+        margin: 0px 20px;
+    }
+
+    .navbar>span:first-child {
+        margin-left: 20px;
+    }
+
+    .input>img {
+        position: relative;
+        left: 170px;
+    }
+}
