@@ -1,0 +1,143 @@
+@media all and (max-width: 2000px) {
+    .mid-texts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid-title {
+        margin-bottom: 30px;
+        font-size: 50px;
+        white-space: nowrap;
+    }
+
+    .mid-text {
+        font-size: 20px;
+    }
+
+    .mid-img-contents {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mid-imgs {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 1465px;
+        align-items: center;
+    }
+
+    .mid-left {
+        position: relative;
+        bottom: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mid-right {
+        position: relative;
+        bottom: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-chevron-left {
+        margin-right: 20px;
+        font-size: 50px;
+    }
+
+    .fa-chevron-right {
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .mid-imgs-g {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .mid-imgs-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        margin-top: 40px;
+    }
+
+    .mid-imgs-tv {
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .mid-img-tv-main {
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        position: absolute;
+    }
+
+    .mid-img-tv-main:hover {
+        width: 310px;
+        height: 310px;
+        transform: all 0.4s ease-in-out;
+    }
+
+    .mid-img-icons {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    .mid-img-tv-img {
+        position: relative;
+        bottom: 10px;
+    }
+
+
+    .mid-img-icons-one-icon {
+        position: relative;
+        top: 150px;
+        left: 220px;
+        padding: 20px;
+        border-radius: 50%;
+        background-color: #333333;
+        opacity: 70%;
+    }
+
+    .mid-imgs-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mid-imgs-sale-one {
+        margin-bottom: 20px;
+        font-size: 15px;
+        opacity: 50%;
+    }
+
+    .mid-imgs-sale {
+        font-size: 30px;
+    }
+
+
+    .mid-imgs-time {
+        margin-top: 10px;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: #90c31f;
+        background-color: #f5faeb;
+    }
+}
