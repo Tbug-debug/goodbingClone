@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    margin: 0px 170px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 1606px;
+}
+
+.navbar-text {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.navbar-text>span {
+    cursor: pointer;
+}
+
+
+.navbar-title:hover {
+    cursor: pointer;
+}
+
+.fa-bars {
+    margin-right: 10px;
+}
+
+
+.input>input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.navbar-text>span {
+    margin: 0px 20px;
+}
+
+.navbar>span:first-child {
+    margin-left: 20px;
+}
+
+.input>img {
+    position: relative;
+    left: 170px;
+}
